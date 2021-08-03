@@ -28,7 +28,7 @@ Exercise | Language
 3059|cpp
 3184|python
 
-## Code wars
+## Code Wars
 Exercise | Language | kyu
 ---|---|---
 int32-to-ipv4|java|5
@@ -39,4 +39,5 @@ testing-1-2-3|cpp|7
 remove-first-and-last-character|cpp|8
 reversed-strings|cpp|8
 
-## Project euler
+## Project Euler
+## Online Judge
