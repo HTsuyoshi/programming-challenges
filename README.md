@@ -1,4 +1,10 @@
 # programming-challenges
+
+## Advent of Code
+Year | Languages used
+---|---
+2021|cpp
+
 ## NEPS
 Exercise | Language
 ---|---
