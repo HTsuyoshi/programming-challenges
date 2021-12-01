@@ -2,20 +2,36 @@
 
 using namespace std;
 
-int main() {
-    int depth = 0,
-        prev_depth = 0,
-        larger_than_prev = 0;
+int day_1(int n)
+{
+    int *values = new int[n],
+        larger = 0,
+        tmp,
+        i = 0;
 
-    cin >> prev_depth;
-    while (cin >> depth)
+    while (i < n)
     {
-        if (depth > prev_depth)
-            larger_than_prev++;
-        prev_depth = depth;
+        cin >> tmp;
+        values[i] = tmp;
+        i++;
     }
 
-    cout << "The depth increase " << larger_than_prev << " times." << endl;
+    i %= n;
+    while (cin >> tmp)
+    {
+        if (values[i] < tmp) larger++;
+        cout << values[i] << ' ' << tmp << endl;
+        values[i] = tmp;
+        i++;
+        i %= n;
+    }
+
+    return larger;
+}
+
+int main() {
+    int increase_time = day_1(3);
+    cout << "The depth increase " << increase_time << " times." << endl;
     return 0;
 }
 
