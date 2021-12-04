@@ -29,9 +29,9 @@ int task_1(int bit_qnt, fstream &input)
 
     for (int i=0; i<bit_qnt; i++) {
         if (values[i] > tot/2)
-            gamma += (1 << (bit_qnt - 1 - i));
+            gamma ^= (1 << (bit_qnt - 1 - i));
         else
-            epsilon += (1 << (bit_qnt - 1 -i));
+            epsilon ^= (1 << (bit_qnt - 1 -i));
     }
 
     return gamma * epsilon;
