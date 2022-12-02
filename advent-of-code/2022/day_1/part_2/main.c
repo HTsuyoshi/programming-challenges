@@ -26,8 +26,8 @@ int main(int argc, char *argv[])
 		{
 			new_calories += atoi(line);
 			code = getline(&line, &i, f);
-			calories_size++;
 		}
+		calories_size++;
 
 		int j;
 		j = 0;
