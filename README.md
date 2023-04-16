@@ -2,7 +2,8 @@
 
 ## Advent of Code
 
-Year | Languages used ---|---
+Year | Languages used
+---|---
 2021|cpp
 
 ## NEPS
@@ -49,8 +50,8 @@ reversed-strings|cpp|8
 ## Code Signal
 
 Exercise | Language
-Arcade universe
 ---|---
+Arcade universe |
 1|cpp
 2|cpp
 3|cpp
@@ -67,8 +68,15 @@ Arcade universe
 14|cpp
 15|cpp
 16|cpp
+17|cpp
+18|cpp
+19|cpp
+20|cpp
+21|cpp
+22|cpp
+23|cpp
+24|cpp
 
 ## Project Euler
 
 ## Online Judge
-
